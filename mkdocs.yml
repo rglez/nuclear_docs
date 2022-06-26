@@ -1,0 +1,47 @@
+site_name: NUCLEAR Docs
+
+nav:
+    - Home: index.md
+    - Setting up: installation.md
+    - How it works: methods.md
+    - Examples: examples.md 
+    - Parameters: parameters.md
+    - Citing: citing.md
+
+
+
+markdown_extensions:
+  - footnotes
+  
+  
+theme:
+  name: material
+  custom_dir: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate 
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-6
+        name: Switch to light mode
+          
+repo_url: https://github.com/rglez/nuclear/
+repo_name: nuclear git repo
+
+
+
+
